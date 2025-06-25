@@ -74,6 +74,18 @@ body{
 .parametro-senha__titulo{
     font-size:24px;
 }
+.botoes{
+width: 16%;
+
+}
+.botoesdois{
+width: 16%;
+
+}
+.botoestres{
+width: 16%;
+
+}
 
 .parametro-coluna__senha{
     display: flex;
