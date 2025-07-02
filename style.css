@@ -74,18 +74,6 @@ body{
 .parametro-senha__titulo{
     font-size:24px;
 }
-.botoes{
-width: 16%;
-
-}
-.botoesdois{
-width: 16%;
-
-}
-.botoestres{
-width: 16%;
-
-}
 
 .parametro-coluna__senha{
     display: flex;
@@ -96,28 +84,34 @@ width: 16%;
     width: 50%;
     margin: 0 auto;
 }
-
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
+.Parametro-senha-botoes{
+display: flex;
+justify-content: center;
 }
-.paramentro-senha-botao{
-background-color: var(--fundo-texto);
+
+.Parametro-senha__botao{
+background-color: var(--cor-de-fundo);
 color: var(--branco);
 border: 2px solid var(--borda);
 padding: 24px;
 font-size: 24px;
 cursor: pointer;
 
-
-
 }
-.parametro-senha-texto{
+.Parametro-senha__texto{
 padding: 24px;
 border-top: 2px solid var(--borda);
 border-bottom: 2px solid var(--borda);
-margin: 0;
+margin: 0px;
 font-size: 24px;
-
+background-color: var(--fundo-texto);
+color: var(--branco);
+border: 2px solid var(--borda);
 }
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
+
