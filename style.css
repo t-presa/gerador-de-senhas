@@ -98,6 +98,44 @@ font-size: 24px;
 cursor: pointer;
 
 }
+
+.parametro-senha-textos{
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.label{
+font-size: 20px;
+
+
+
+}
+
+.checkbox{
+width: 20px;
+height: 20px;
+cursor: pointer;
+
+
+}
+
+.força{
+height: 30px;
+position: absolute;
+
+
+}
+
+.barra{
+background-color: var(--fundo-senha);
+height: 30px;
+width: 100%;
+
+
+}
+
 .Parametro-senha__texto{
 padding: 24px;
 border-top: 2px solid var(--borda);
