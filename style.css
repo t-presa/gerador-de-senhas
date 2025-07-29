@@ -121,18 +121,34 @@ cursor: pointer;
 
 }
 
-.força{
-height: 30px;
-position: absolute;
-
-
-}
-
 .barra{
 background-color: var(--fundo-senha);
 height: 30px;
 width: 100%;
 
+
+}
+
+..força{
+    height: 30px;
+    position: absolute;
+    bottom: 30px;}
+
+.fraca{
+height: 25%;
+background-color: #e71832;
+
+
+}
+
+.media{
+background-color: #FAF408;
+
+
+}
+
+.forte{
+background-color: #00FF85;
 
 }
 
